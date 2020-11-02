@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="12.842">
+    <testcase classname="Validating order details" name="results of book" time="12.738">
+        <system-out>
+            <![CDATA[Given the user logged in  in account page...................................passed
+Given the user enters name of book to search................................passed
+When page opens user validates the message "Showing results for Clean Code".passed
+Then he validates  that all books have same button View Details  on that page.passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

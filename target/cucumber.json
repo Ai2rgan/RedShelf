@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "The user searches book",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4454138000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user logged in  in account page",
+            "match": {
+              "location": "StepDefinitions.SearchStepDefinitions.theUserLoggedInInAccountPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-02T13:06:17.186Z",
+        "line": 7,
+        "name": "results of book",
+        "description": "",
+        "id": "validating-order-details;results-of-book",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1460456000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user enters name of book to search",
+            "match": {
+              "location": "StepDefinitions.SearchStepDefinitions.theUserEntersNameOfBookToSearch()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26549000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "page opens user validates the message \"Showing results for Clean Code\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Showing results for Clean Code\"",
+                  "offset": 38
+                }
+              ],
+              "location": "StepDefinitions.SearchStepDefinitions.pageOpensUserValidatesTheMessage(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6730303000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "he validates  that all books have same button View Details  on that page",
+            "match": {
+              "location": "StepDefinitions.SearchStepDefinitions.heValidatesThatAllBooksHaveSameButtonViewDetailsOnThatPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@4"
+          }
+        ]
+      }
+    ],
+    "name": "Validating order details",
+    "description": "",
+    "id": "validating-order-details",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com.cucumber.features.redshelf/Search.feature",
+    "tags": []
+  }
+]
